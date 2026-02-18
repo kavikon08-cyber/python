@@ -1,0 +1,25 @@
+country_code = input("Enter country code (US, IN, UK, CA): ").upper()
+
+if country_code == "US":
+    print("Country: United States")
+elif country_code == "IN":
+    print("Country: India")
+elif country_code == "UK":
+    print("Country: United Kingdom")
+elif country_code == "CA":
+    print("Country: Canada")
+else:
+    print("Country code not recognized")
+country_code = input("Enter country code: ").upper()
+
+if country_code == "US":
+    print("Country: United States")
+    print("Currency: Dollar")
+elif country_code == "IN":
+    print("Country: India")
+    print("Currency: Rupee")
+elif country_code == "JP":
+    print("Country: Japan")
+    print("Currency: Yen")
+else:
+    print("Invalid country code")
